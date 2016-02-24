@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MTRRouteTableViewController.h
 //  metro
 //
 //  Created by Josh Homann on 2/23/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MTRRouteTableViewController : UITableViewController
 
 @end
-

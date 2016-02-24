@@ -1,0 +1,10 @@
+/* 
+  MTRStrings.strings
+  metro
+
+  Created by Josh Homann on 2/24/16.
+  Copyright © 2016 josh. All rights reserved.
+*/
+"mapview.title" = "Vehicles on Route %lu";
+"mapview.annotation.description" = "Vehicle id: %lu";
+"mapview.annotation.subtitle" = "Reported %lu seconds ago.";

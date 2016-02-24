@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MTRConstants.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    UINavigationBar.appearance.tintColor = COLOR_METRO_BLUE;
+    UINavigationBar.appearance.titleTextAttributes = @{NSForegroundColorAttributeName:COLOR_METRO_BLUE};
     return YES;
 }
 
