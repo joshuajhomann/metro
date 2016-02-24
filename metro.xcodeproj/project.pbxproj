@@ -14,11 +14,11 @@
 		9683DAAF1C7D6A40000C317F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9683DAAD1C7D6A40000C317F /* LaunchScreen.storyboard */; };
 		9683DAB81C7D6AAE000C317F /* MTRRouteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683DAB71C7D6AAE000C317F /* MTRRouteTableViewController.m */; };
 		9683DABE1C7D7499000C317F /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683DABD1C7D7499000C317F /* Route.m */; };
-		9683DAC21C7D9237000C317F /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683DAC11C7D9237000C317F /* Vehicle.m */; };
 		9683DAC51C7D96AD000C317F /* MTRMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683DAC41C7D96AD000C317F /* MTRMapViewController.m */; };
 		9683DAC71C7D9B1C000C317F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9683DAC61C7D9B1C000C317F /* MapKit.framework */; };
 		9683DACA1C7DA1B9000C317F /* MTRRouteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683DAC91C7DA1B9000C317F /* MTRRouteTableViewCell.m */; };
 		9683DAD11C7E08AA000C317F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9683DAD01C7E08AA000C317F /* Localizable.strings */; };
+		9683DAD41C7E0CC4000C317F /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9683DAD31C7E0CC4000C317F /* Vehicle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,14 +35,14 @@
 		9683DABC1C7D7499000C317F /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
 		9683DABD1C7D7499000C317F /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
 		9683DABF1C7D8DA6000C317F /* MTRConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTRConstants.h; sourceTree = "<group>"; };
-		9683DAC01C7D9237000C317F /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vehicle.h; path = ../Vehicle.h; sourceTree = "<group>"; };
-		9683DAC11C7D9237000C317F /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vehicle.m; path = ../Vehicle.m; sourceTree = "<group>"; };
 		9683DAC31C7D96AD000C317F /* MTRMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRMapViewController.h; sourceTree = "<group>"; };
 		9683DAC41C7D96AD000C317F /* MTRMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRMapViewController.m; sourceTree = "<group>"; };
 		9683DAC61C7D9B1C000C317F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9683DAC81C7DA1B9000C317F /* MTRRouteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRRouteTableViewCell.h; sourceTree = "<group>"; };
 		9683DAC91C7DA1B9000C317F /* MTRRouteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRRouteTableViewCell.m; sourceTree = "<group>"; };
 		9683DAD01C7E08AA000C317F /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		9683DAD21C7E0CC4000C317F /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		9683DAD31C7E0CC4000C317F /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +133,8 @@
 			children = (
 				9683DABC1C7D7499000C317F /* Route.h */,
 				9683DABD1C7D7499000C317F /* Route.m */,
-				9683DAC01C7D9237000C317F /* Vehicle.h */,
-				9683DAC11C7D9237000C317F /* Vehicle.m */,
+				9683DAD21C7E0CC4000C317F /* Vehicle.h */,
+				9683DAD31C7E0CC4000C317F /* Vehicle.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -223,9 +223,9 @@
 				9683DABE1C7D7499000C317F /* Route.m in Sources */,
 				9683DAA41C7D6A40000C317F /* AppDelegate.m in Sources */,
 				9683DACA1C7DA1B9000C317F /* MTRRouteTableViewCell.m in Sources */,
+				9683DAD41C7E0CC4000C317F /* Vehicle.m in Sources */,
 				9683DAC51C7D96AD000C317F /* MTRMapViewController.m in Sources */,
 				9683DAA11C7D6A40000C317F /* main.m in Sources */,
-				9683DAC21C7D9237000C317F /* Vehicle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
