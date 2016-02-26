@@ -51,6 +51,7 @@
 }
 
 - (void)updateMap {
+    [self.mapView removeAnnotations:self.annotations];
     [self.annotations removeAllObjects];
     for (Vehicle* vehicle in self.vehicles) {
         MKPointAnnotation *annotation = [MKPointAnnotation new];
